@@ -5,18 +5,5 @@
         "src": "server.js",
         "use": "@vercel/node"
       }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "server.js",
-        "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-        "headers": {
-          "Access-Control-Allow-Origin": "https://crypto-currency-bot-client.vercel.app",
-          "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
-          "Access-Control-Allow-Headers": "X-Requested-With, Content-Type, Authorization",
-          "Access-Control-Allow-Credentials": "true"
-        }
-      }
     ]
   }
