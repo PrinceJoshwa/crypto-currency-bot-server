@@ -9,7 +9,6 @@
 //   }
 // }
 
-
 import { fetchCryptoPrices } from "../services/coinGeckoService.js"
 
 export const getCryptoPrices = async (req, res) => {
