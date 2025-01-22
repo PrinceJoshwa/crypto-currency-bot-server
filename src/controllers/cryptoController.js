@@ -21,3 +21,5 @@ export const getCryptoPrices = async (req, res) => {
   }
 }
 
+
+
